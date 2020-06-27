@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="513.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xmlfilecatalogmanager.FXMLDocumentController">
+   <children>
+      <TableView fx:id="tableView" layoutX="19.0" layoutY="36.0" prefHeight="437.0" prefWidth="515.0">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="350.0" text="Tytuł" />
+            <TableColumn fx:id="pagesColumn" minWidth="0.0" prefWidth="160.0" text="Ilość stron" />
+        </columns>
+      </TableView>
+      <Button fx:id="fileChooserButton" layoutX="19.0" layoutY="10.0" mnemonicParsing="false" onAction="#chooseFileButtonAction" text="Wczytaj" />
+      <Label fx:id="fileChooserLabel" layoutX="80.0" layoutY="14.0" prefHeight="17.0" prefWidth="452.0" />
+      <Button fx:id="saveButton" layoutX="19.0" layoutY="473.0" mnemonicParsing="false" onAction="#saveButtonAction" prefHeight="25.0" prefWidth="58.0" text="Zapisz" />
+      <Button fx:id="addElementButton" layoutX="80.0" layoutY="473.0" mnemonicParsing="false" onAction="#addElementButtonAction" prefHeight="25.0" prefWidth="58.0" text="Dodaj" />
+      <Button fx:id="removeElementButton" layoutX="141.0" layoutY="473.0" mnemonicParsing="false" onAction="#removeElementButtonAction" prefHeight="25.0" prefWidth="58.0" text="Usuń" />
+   </children>
+</AnchorPane>
