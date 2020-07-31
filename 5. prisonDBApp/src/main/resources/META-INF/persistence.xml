@@ -16,9 +16,9 @@
     <class>entities.Straznicy</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/prison?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC"/>
-      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.user" value=~/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="MyNewPass"/>
+      <property name="javax.persistence.jdbc.password" value=~/>
     </properties>
   </persistence-unit>
 </persistence>
