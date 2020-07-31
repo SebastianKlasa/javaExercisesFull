@@ -1,1 +1,0 @@
-Disk manager in console
