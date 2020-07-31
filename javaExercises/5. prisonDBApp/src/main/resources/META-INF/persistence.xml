@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="prisonPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>entities.Sektory</class>
+    <class>entities.Prace</class>
+    <class>entities.Wiezniowie</class>
+    <class>entities.Przepustki</class>
+    <class>entities.Kary</class>
+    <class>entities.Zmiany</class>
+    <class>entities.Odwiedzajacy</class>
+    <class>entities.Odwiedziny</class>
+    <class>entities.PraceWiez</class>
+    <class>entities.Cele</class>
+    <class>entities.OdwiedzaOdwiedzi</class>
+    <class>entities.Straznicy</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/prison?zeroDateTimeBehavior=convertToNull&amp;serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value=~/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=~/>
+    </properties>
+  </persistence-unit>
+</persistence>
