@@ -28,6 +28,9 @@ is divided into following sections:
             </not>
         </condition>
     </fail>
+	
+	
+	
     <target depends="test,jar,javadoc" description="Build and test whole project." name="default"/>
     <!-- 
                 ======================
