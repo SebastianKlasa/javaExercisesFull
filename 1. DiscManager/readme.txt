@@ -1,10 +1,10 @@
-#General information
+# General information
 Disk manager in console
 TODO:
 - code refactoring
 - documentation/readme 
 
-##Description:
+## Description:
 Simple disc manager in console. Program display files structure inside taken directory.
 Commands:
 -  DiscManager <path> - display disk content
