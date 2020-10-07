@@ -5,6 +5,7 @@ File manager
 
 ## Description:
 Simple files manager wit Gui created with JavaFX.
+![alt text](https://user-images.githubusercontent.com/59564753/95370248-c837f280-08d8-11eb-881e-18b40aa68955.png)
 
 ### Features
 
