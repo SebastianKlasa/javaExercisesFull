@@ -3,12 +3,12 @@
 ## General information
 File manager
 
-## Description:
+### Description:
 Simple files manager wit Gui created with JavaFX.
 
 ### Features
 
-## Technologies
+### Technologies
 - Java 8
 - JavaFX
 

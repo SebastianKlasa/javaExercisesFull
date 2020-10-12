@@ -111,6 +111,7 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     public void removeElementButtonAction(){
+		if(books.size()<1) return;
         int book = tableView.getSelectionModel().getSelectedIndex();
         books.remove(book);
         booksOL.remove(book);
