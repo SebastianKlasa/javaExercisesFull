@@ -3,7 +3,6 @@
 ## General information
 File manager
 
-<<<<<<< HEAD
 ### Description:
 Simple files manager wit Gui created with JavaFX.
 =======
