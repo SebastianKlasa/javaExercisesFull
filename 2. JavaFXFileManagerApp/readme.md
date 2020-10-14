@@ -16,7 +16,6 @@ Simple files manager wit Gui created with JavaFX. <br/>
 <br/>
 
 ![alt text](https://user-images.githubusercontent.com/59564753/95370242-c706c580-08d8-11eb-8f32-b645be3eb1e7.png)
->>>>>>> e1cc511913a37d0f6319da1f61fccd8934892062
 
 ### Features
 
