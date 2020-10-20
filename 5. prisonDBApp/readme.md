@@ -1,7 +1,8 @@
 # Prison Database Manager
 
 ## General information
-PrisonDatabaseManager
+PrisonDatabaseManager. <br/>
+Class DatabaseController should be corrected. Elements finding is created in JDBC.
 
 ### Description:
 Application designed to managing prison database. This application has limited functionality. It lets to managing prison cells and sectors.
