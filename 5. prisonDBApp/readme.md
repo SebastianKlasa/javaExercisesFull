@@ -2,7 +2,7 @@
 
 ## General information
 PrisonDatabaseManager. <br/>
-Class DatabaseController should be corrected. Elements finding is created in JDBC.
+Class DatabaseController should be corrected. Elements finding is created in JPQL.
 
 ### Description:
 Application designed to managing prison database. This application has limited functionality. It lets to managing prison cells and sectors.
